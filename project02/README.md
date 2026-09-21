@@ -35,7 +35,25 @@ Put pseudocode in this box:
     2. From inner dictionary, build two list, one is list of possible words and other is list of counts
     3. Convert the counts to probabilities. 
     4. Return the chosen the word based on probabilities. 
+
+3. generate_random_text(markov_model, seed):
+    Inputs:
+     markov_model - model generated from build_markov_model
+     seeds- testing and reproducibility
+    Outputs: 
+     full generated random text made by looping the get_next_word() and stitching all the words together. 
     
+    1. Determine the order of the model. First it runs a type check if type is string then order  is set to 1 but if the type is tuple or else then it checks the len of the tuple, and  then len decides the order.
+    2. Set up the starting state. simple enough for order 1, with *S* as string, but incase of    Nth order, we create tuple of *S* with len of the tuple equivalent to Nth order.
+    3. Create an empty list to hold the sentence.
+    4. Loop:
+        a. Call get_next_word(current_state, markov_model, seed) to pick a next word.
+        b. If the returned word is "*E*", stop the loop.
+        c. Otherwise, append the word to the sentence list.
+        d. Update the current state: drop the oldest word and append the newly generated word to the end. The state stays the same length as the order. 
+    5. Join the sentence list into a single string with spaces between words and return it.
+
+
 ```
 
 # Successes
