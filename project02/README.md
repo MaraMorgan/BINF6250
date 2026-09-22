@@ -57,10 +57,10 @@ Put pseudocode in this box:
 ```
 
 # Successes
-Description of the team's learning points
+We were able to write a function that successfully builds a word-level Markov chain. It tracks how often next_word follows word, using artificial start/end markers so you know how sentences tend to begin and end.We were also able to write a function that generate the transition state probabilites
 
 # Struggles
-Description of the stumbling blocks the team experienced
+We had difficulties in figuring how to get a word based on observed transitions
 
 # Personal Reflections
 ## Group Leader
