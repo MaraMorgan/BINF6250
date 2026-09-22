@@ -1,9 +1,18 @@
 # Introduction
-Description of the project
+This project introduces the concept of Markov Models with the goal of learning the transitions between states, orders, and incorporating probabilities. 
+Markov Models are a system that uses its core "memoryless-ness" to predict the likelihood that another state will happen, given the first state, and no other state prior. 
+With the concept of orders, the current state can be made up of multiple elements, thereby increasing the likelihood of a specific next state. 
+This is useful for bioinformatics applications, such as genome annotation. 
+
+The program operates in a Jupyter notebook, having functions defined in cells. 
+We first create a Markov model using a dictionary of dictionaries, and then train the model, testing it with a short string. 
+Next, we re-build the Markov Model, but with order as an additional argument. 
+Then, we generate random text, first calculating the probability of the next word, by seeding the function.
+After this, we train the model some more, but with the entirety of "One Fish, Two Fish".
+Finally, we run everything we've built on the entirety of the provided texts, and we tested it on both "Sonnets" and "The Odyssey."
+
 
 # Pseudocode
-Put pseudocode in this box:
-
 ```
 1. build_markov_model (markov_model, new_text, order)
     Inputs:
@@ -52,19 +61,36 @@ Put pseudocode in this box:
         c. Otherwise, append the word to the sentence list.
         d. Update the current state: drop the oldest word and append the newly generated word to the end. The state stays the same length as the order. 
     5. Join the sentence list into a single string with spaces between words and return it.
-
-
 ```
 
 # Successes
-We were able to write a function that successfully builds a word-level Markov chain. It tracks how often next_word follows word, using artificial start/end markers so you know how sentences tend to begin and end.We were also able to write a function that generate the transition state probabilites
+We all wrote out pseudocode and combined them together, adding or removing elements, to create a cohesive structure for the overall program. 
+We then wrote the code individually and compared it for each cell. For the most part, we all had similar approaches to the code, which made sense with the way we wrote the pseudocode together. 
+We elected to keep the group leaders Jupyter notebook as the one to edit, since it was already in the GitHub, and we once again changed things around as needed, and explained code where there may have been confusion. 
+
+The times where one of us explained what we were doing, or how we did it, was very beneficial, since teaching others is an excellent way to reinforce your own knowledge. 
+We all felt that through our collaboration with coding, that we understood how it should come together much easier than if we were doing it alone. 
+
 
 # Struggles
-We had difficulties in figuring how to get a word based on observed transitions
+We originally struggled with scheduling times to meet, since one member is on the West Coast, while the other two are on the East Coast, meaning a 3 hour time difference. 
+On top of this, all three members are employed and taking multiple classes, heavily constraining meet times. 
+
+We next had a hard time conceptualizing the logic flow of the functions between different cells, and what should go where. After writing and re-writing pseudocode, we figured out a good structure. 
+
+We then had to reconceptualize what order meant for a markov model and how it doesn't invalidate the memoryless-ness, but we talked through it. 
+
 
 # Personal Reflections
 ## Group Leader
-Group leader's reflection on the project
+I found the GitHub portion of the project to be much easier this time, despite being a group leader for the first time. 
+After walking through it during Project 01, I felt I had a good handle of it, and there were no conflicts between the other collaborators.
+At first, PyCharm was extremely glitchy with the notebook, making it almost unusable, but I read some resources and found it to be a common problem, and I changed some settings, completely fixing it. 
+I do enjoy the troubleshooting aspects of coding, even while I currently find it difficult. 
+The project itself, while at first seeming much more involved, was relatively straight-forward, yet my limited Python skills made this more difficult that I would like. 
+Using Jupyter notebooks was new to me too, and I found that being able to prototype without breaking the rest of my code was highly beneficial. 
+
+Ultimately, I am proud of what this group accomplished, and I am glad that I got the chance to be a leader. 
 
 ## Other member
 Other members' reflections on the project
