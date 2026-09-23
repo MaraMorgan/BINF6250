@@ -11,6 +11,7 @@ Then, we generate random text, first calculating the probability of the next wor
 After this, we train the model some more, but with the entirety of "One Fish, Two Fish".
 Finally, we run everything we've built on the entirety of the provided texts, and we tested it on both "Sonnets" and "The Odyssey."
 
+Pseudocode was removed from function docstrings and compiled in README to prevent redundancy. 
 
 # Pseudocode
 ```
@@ -73,7 +74,7 @@ We all felt that through our collaboration with coding, that we understood how i
 
 
 # Struggles
-We originally struggled with scheduling times to meet, since one member is on the West Coast, while the other two are on the East Coast, meaning a 3 hour time difference. 
+We originally struggled with scheduling times to meet, since one member is on the West Coast, while the other two are on the East Coast, meaning a 3-hour time difference. 
 On top of this, all three members are employed and taking multiple classes, heavily constraining meet times. 
 
 We next had a hard time conceptualizing the logic flow of the functions between different cells, and what should go where. After writing and re-writing pseudocode, we figured out a good structure. 
@@ -94,7 +95,15 @@ Ultimately, I am proud of what this group accomplished, and I am glad that I got
 
 ## Other member
 
-Dhaivat - It gave me an much clearer idea on the concept of memorylessness concept of markov model. Initially I found it a bit difficult about how to work with Nth order of markov model but discussing it with my peers helped me understand it better. I wish to try dealing the with punctuations of the data given. For this project I got used to Github workflow, got better at pushing and committing my work to the repo. It was fascinating to use tuples so that markov property is not violated. The group meetings and active discussion helped me to look at the problems from different perscpectives. 
+Dhaivat - It gave me a much clearer idea on the concept of memorylessness concept of markov model. 
+Initially I found it a bit difficult about how to work with Nth order of markov model but discussing it with my peers helped me understand it better. 
+I wish to try dealing the with punctuations of the data given. For this project I got used to GitHub workflow, got better at pushing and committing my work to the repo. It was fascinating to use tuples so that markov property is not violated. 
+The group meetings and active discussion helped me to look at the problems from different perspectives. 
+
 Bessie - Working on this project  gave me an insight on how the Markov chain algorithim is built . It showed me how you determine the current state and how you navigate to other transition states using probabilities . I also learnt how to use Jupyter notebooks and incorparate them on Github . I had difficulties in how you write code for determining the Nth order and other group members helped me understand that part . 
+
 # Generative AI Appendix
-As per the syllabus
+No generative AI was used to write code. 
+
+### Appendix II:
+All function docstrings were provided by the professor, Dr. Marcus Sherman, BINF6250 Algorithmic Foundations in Bioinformatics
