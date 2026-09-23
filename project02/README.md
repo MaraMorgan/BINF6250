@@ -11,6 +11,7 @@ Then, we generate random text, first calculating the probability of the next wor
 After this, we train the model some more, but with the entirety of "One Fish, Two Fish".
 Finally, we run everything we've built on the entirety of the provided texts, and we tested it on both "Sonnets" and "The Odyssey."
 
+Pseudocode was removed from function docstrings and compiled in README to prevent redundancy. 
 
 # Pseudocode
 ```
@@ -94,7 +95,13 @@ Ultimately, I am proud of what this group accomplished, and I am glad that I got
 
 ## Other member
 
-Dhaivat - It gave me an much clearer idea on the concept of memorylessness concept of markov model. Initially I found it a bit difficult about how to work with Nth order of markov model but discussing it with my peers helped me understand it better. I wish to try dealing the with punctuations of the data given. For this project I got used to Github workflow, got better at pushing and committing my work to the repo. It was fascinating to use tuples so that markov property is not violated. The group meetings and active discussion helped me to look at the problems from different perscpectives. 
+Dhaivat - It gave me an much clearer idea on the concept of memorylessness concept of markov model. 
+Initially I found it a bit difficult about how to work with Nth order of markov model but discussing it with my peers helped me understand it better. 
+I wish to try dealing the with punctuations of the data given. For this project I got used to Github workflow, got better at pushing and committing my work to the repo. It was fascinating to use tuples so that markov property is not violated. 
+The group meetings and active discussion helped me to look at the problems from different perspectives. 
 
 # Generative AI Appendix
-As per the syllabus
+No generative AI was used to write code. 
+
+### Appendix II:
+All function docstrings were provided by the professor, Dr. Marcus Sherman, BINF6250 Algorithmic Foundations in Bioinformatics
