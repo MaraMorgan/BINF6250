@@ -93,7 +93,8 @@ Using Jupyter notebooks was new to me too, and I found that being able to protot
 Ultimately, I am proud of what this group accomplished, and I am glad that I got the chance to be a leader. 
 
 ## Other member
-Other members' reflections on the project
+
+Dhaivat - It gave me an much clearer idea on the concept of memorylessness concept of markov model. Initially I found it a bit difficult about how to work with Nth order of markov model but discussing it with my peers helped me understand it better. I wish to try dealing the with punctuations of the data given. For this project I got used to Github workflow, got better at pushing and committing my work to the repo. It was fascinating to use tuples so that markov property is not violated. The group meetings and active discussion helped me to look at the problems from different perscpectives. 
 
 # Generative AI Appendix
 As per the syllabus
